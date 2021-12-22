@@ -13,22 +13,26 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
+    } // onCreate
 
     /**
      * Takes the user to the rules page.
-     * @param aView - current View
+     * @param aView current View of the application
      */
     public void toRulesPage(View aView) {
         Button rulesButton = (Button) aView;
-        Intent toTheRulesPage = new Intent(this, RulesActivity.class);
+        Intent toTheRulesPage = new Intent(this, RulesPage1Activity.class);
         startActivity(toTheRulesPage);
-    }
+    } // toRulesPage
 
+    /**
+     * Takes the user to the game page.
+     * @param aView current View of the application
+     */
     public void toGamePage(View aView) {
         Button playGame = (Button) aView;
         Intent toGamePage = new Intent(this, DiceGameActivity.class);
         startActivity(toGamePage);
-    }
+    } // toGamePage
 
-}
+} // class

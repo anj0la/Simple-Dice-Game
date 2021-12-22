@@ -9,7 +9,7 @@ import com.example.dicegameapplication.R;
 import java.util.Random;
 
 /**
- * Creates a com.example.dicegameapplication.TwoDice, and contains methods that can be used on the com.example.dicegameapplication.TwoDice.
+ * Creates two dices, and contains methods that can be used on the two dices
  */
 public class TwoDice {
 

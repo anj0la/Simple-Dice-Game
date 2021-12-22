@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DiceGameApplication" >
         <activity
+            android:name=".RulesPage2Activity"
+            android:exported="true" />
+        <activity
             android:name=".DiceGameActivity"
             android:exported="true" />
         <activity
-            android:name=".RulesActivity"
+            android:name=".RulesPage1Activity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

@@ -11,6 +11,8 @@
         <entry key="app/src/main/res/layout/activity_dice_game_application.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_rules.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_rules_page1.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_rules_page2.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/roll_again_popup_window.xml" value="0.335" />
       </map>
     </option>
